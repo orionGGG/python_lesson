@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    //"console": "internalConsole"
+    "version": "0.2.0",
+    "configurations": [
+
+        
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "D:\\environment\\python38\\python.exe",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "args": ["first","2nd","3rd"],
+            //"args": ["D:\\Code_projects\\python_code\\.vscode\\ex_15.txt"],
+            //要写出被读文件具体位置，vscode有点脑瘫
+            //"args": ["gg"],14
+           
+            "env": {},
+            "envFile": "${workspaceRoot}/.env",
+           "redirectOutput": true,
+           "console": "externalTerminal",
+        }
+    ]
+}
